@@ -1,0 +1,11 @@
+Web App - DONE
+
+
+GoDaddy / Azure
+
+Domain: www.franzcimeni.com
+Hosting: GoDaddy, etc.
+Security: HTTPS / SSL (encrypted)
+Database: MySQL / SQL Server
+
+Region: APAC / EMEA / NA
