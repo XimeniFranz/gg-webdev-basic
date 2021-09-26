@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- CSS Style - Internal -->
+    <style>
+        /* Default */
+        table {
+            width:100%;
+            background-color:#03c6fc;
+        }
+
+        /* Profile */
+        .img-profile {
+            width: 200px;
+        }
+        /* END */
+
+        /*Basic Info - START*/        
+        #tbl-basic-info {
+            background-color: brown;
+        }
+
+        .tbl-basic-info .td-address {
+            text-align: left;
+            color:yellow;
+        }
+
+        .td-name {
+            /* key:value */
+            text-align: left;
+            color: white;
+            text-transform: uppercase;
+        }
+
+
+
+        /*END*/
+
+        /*Education - START*/        
+        #tbl-education {
+            background-color: coral;
+        }
+        /*END*/
+
+
+        /*Work XP - START*/        
+        #tbl-work-xp {
+            background-color:darkgoldenrod;
+        }
+        /*END*/
+
+        h3.h3-combination-tag-class {
+            color: violet;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Photo : TODO -->
+    <table id="tbl-basic-info">
+        <tr><img id="img-profile" class="img-profile" src="images/employee.jpg" alt="my photo"></tr>
+    </table>
+    
+    <table id="tbl-basic-info" class="tbl-basic-info">
+        <!-- Basic Information -->
+        <h2>Basic Information</h2>
+        <tr>
+            <td class="td-name"><b>Name</b>: Simeon Garcia</td>
+            <td class="td-address">Address : Gapan City, N.E</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+        </tr>
+    </table>
+
+    <table id="tbl-education">
+        <!-- Educational Background -->
+        <h3 align="center">Educational Background</h3>
+        <tr>
+            <th width="40%" align="left">Level</th>
+            <th width="40%" align="left">School</th>
+            <th width="20%" align="left">Year</th>
+        </tr>
+        <tr>
+            <td>Primary</td>
+            <td>La Union Elem. School</td>
+            <td>1987-91</td>
+        </tr>
+    </table>
+
+    <table id="tbl-work-xp">
+        <!-- Work -->
+        <h3 align="center">Work Experiences</h3>
+        <tr>
+            <th width="40%" align="left">Company</th>
+            <th width="40%" align="left">Job Title</th>
+            <th width="20%" align="left">Year</th>
+        </tr>
+        <tr>
+            <td>XYZ Company</td>
+            <td>Web Developers</td>
+            <td>2021</td>
+        </tr>
+    </table>
+
+    <h3 class="h3-combination-tag-class">Combination Tag + Class</h3>
+
+</body>
+</html>
