@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button type="button" onclick="document.getElementById('p-dt').innerHTML = Date()">Display Date and Time</button>
+        
+    <p id="p-dt" class="p-dt" name="p-dt">TEST</p>
+
+
+    <input id="txt-1st-num" type="text" placeholder="Enter 1st Number"></input>
+    <input id="txt-2nd-num" type="text" placeholder="Enter 2nd Number"></input>
+
+    <input type="button" value="ADD" onclick="add_numbers()"></input>
+    <input type="button" value="COMPARE" onclick="compare_numbers()"></input>
+    
+    <p id="p-sum">Total</p>
+    
+    <input id="txt-total" type="text" placeholder="Total"></input>
+    
+    <h2 id="h2-result">Comparison Result</h2>
+
+    <input id="txt-fname" type="text" placeholder="First Name"></input>
+    <input id="txt-lname" type="text" placeholder="Last Name"></input>
+
+    <input type="button" value="GREET!" onclick="greet()"></input>
+
+    <h2 id="h2-greet">GREET</h2>
+
+    <select id="opt-rate">
+        <option value="0">Please select area</option>
+        <option value="1">NCR</option>
+        <option value="2">Bulacan</option>
+        <option value="3">Laguna</option>
+    </select>
+
+    <input type="button" value="Show Rate" onclick="getRate()"></input>
+
+    <h2 id="h2-rate">DELIVERY RATE</h2>
+
+    <!-- Include JavaScript -->
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
