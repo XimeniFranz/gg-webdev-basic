@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>getElement</title>
+</head>
+<body>
+  <p id='p1'>Paragraph 1</p>
+  <p id="p2" onclick="clickThis();">Paragraph 2</p>
+  <script>
+    const element = document.getElementById("p1");
+    console.log(element);
+    document.getElementById("p2").innerHTML = "HELLO P2";
+    clickThis = () => {
+      alert('hello');
+    }
+  </script>
+</body>
+</html>
